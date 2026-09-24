@@ -1,0 +1,26 @@
+/* Variabili di design del Brand */
+:root {
+    --lp-primary-color: #ff6b00; /* Esempio: Colore "Fox" */
+    --lp-secondary-color: #2b2b2b;
+}
+
+/* Classi di layout personalizzate */
+.lp-hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.lp-feature-card {
+    transition: transform 0.3s ease;
+}
+
+.lp-feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.lp-btn-primary {
+    background-color: var(--lp-primary-color);
+    border-color: var(--lp-primary-color);
+    color: #ffffff;
+}
