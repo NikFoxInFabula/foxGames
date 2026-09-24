@@ -3,18 +3,8 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/src/assets/css/(.*).css",
-      "destination": "/src/assets/css/$1.css"
-    },
-    {
-      "source": "/src/(.*)",
-      "destination": "/src/$1"
-    },
-    {
-      "source": "/((?!css|js|img|assets|src|.*\\..*$).*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
 }
-
-
